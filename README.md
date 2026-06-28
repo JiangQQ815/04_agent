@@ -6,61 +6,61 @@
 
 | 项目 | Stars | 定位 | 许可证 |
 |------|-------|------|--------|
-| **AutoGPT** | ~163k | 构建、部署、运行 AI Agents 平台 | Polyform Shield + MIT |
-| **awesome-llm-apps** | ~33k | 100+ 可运行的 LLM Apps 模板集合 | Apache-2.0 |
-| **LangChain** | ~67k | Agent 工程框架 | MIT |
-| **LangFlow** | ~28k | 可视化 AI Flow 构建平台 | MIT |
-| **Open WebUI** | ~37k | 离线优先的 AI 界面平台 | 混合 |
+| [**AutoGPT**](https://github.com/Significant-Gravitas/AutoGPT) | ~163k | 构建、部署、运行 AI Agents 平台 | Polyform Shield + MIT |
+| [**awesome-llm-apps**](https://github.com/Shubhamsaboo/awesome-llm-apps) | ~33k | 100+ 可运行的 LLM Apps 模板集合 | Apache-2.0 |
+| [**LangChain**](https://github.com/langchain-ai/langchain) | ~67k | Agent 工程框架 | MIT |
+| [**LangFlow**](https://github.com/langflow-ai/langflow) | ~28k | 可视化 AI Flow 构建平台 | MIT |
+| [**Open WebUI**](https://github.com/open-webui/open-webui) | ~37k | 离线优先的 AI 界面平台 | 混合 |
 
 ### 1.2 定位与适用场景
 
 | 项目 | 核心理念 | 适合谁 | 门槛 |
 |------|----------|--------|------|
-| **AutoGPT** | 全栈 Agent 平台，支持工作流编排、市场place | 需商业化 Agent 产品、复杂自动化流程 | 较高 |
-| **awesome-llm-apps** | 开源模板集合，快速原型开发 | 想快速搭 AI 应用原型、个人开发者 | **低** |
-| **LangChain** | 模块化框架，链式调用 + LangGraph | 有编程基础、需要灵活定制的团队 | 中 |
-| **LangFlow** | 可视化拖拽画布 + Python 自定义 | 非程序员或喜欢可视化操作的运营/产品 | **低** |
-| **Open WebUI** | 类似 ChatGPT 的 Web UI，支持 Ollama | 追求本地部署、私有化、离线使用 | **极低** |
+| [**AutoGPT**](https://github.com/Significant-Gravitas/AutoGPT) | 全栈 Agent 平台，支持工作流编排、市场place | 需商业化 Agent 产品、复杂自动化流程 | 较高 |
+| [**awesome-llm-apps**](https://github.com/Shubhamsaboo/awesome-llm-apps) | 开源模板集合，快速原型开发 | 想快速搭 AI 应用原型、个人开发者 | **低** |
+| [**LangChain**](https://github.com/langchain-ai/langchain) | 模块化框架，链式调用 + LangGraph | 有编程基础、需要灵活定制的团队 | 中 |
+| [**LangFlow**](https://github.com/langflow-ai/langflow) | 可视化拖拽画布 + Python 自定义 | 非程序员或喜欢可视化操作的运营/产品 | **低** |
+| [**Open WebUI**](https://github.com/open-webui/open-webui) | 类似 ChatGPT 的 Web UI，支持 Ollama | 追求本地部署、私有化、离线使用 | **极低** |
 
 ### 1.3 快速启动对比
 
 | 项目 | 启动命令 | 说明 |
 |------|----------|------|
-| **awesome-llm-apps** | `streamlit run travel_agent.py` | **最快**，3行代码跑起来 |
-| **LangFlow** | `uv pip install langflow && langflow run` | Desktop 版一键安装 |
-| **Open WebUI** | `docker run -p 3000:8080 ...` | Docker 一键 |
-| **AutoGPT** | `./install.sh` | 需 Docker + VSCode |
-| **LangChain** | `uv add langchain` | Python 库引入 |
+| [**awesome-llm-apps**](https://github.com/Shubhamsaboo/awesome-llm-apps) | `streamlit run travel_agent.py` | **最快**，3行代码跑起来 |
+| [**LangFlow**](https://github.com/langflow-ai/langflow) | `uv pip install langflow && langflow run` | Desktop 版一键安装 |
+| [**Open WebUI**](https://github.com/open-webui/open-webui) | `docker run -p 3000:8080 ...` | Docker 一键 |
+| [**AutoGPT**](https://github.com/Significant-Gravitas/AutoGPT) | `./install.sh` | 需 Docker + VSCode |
+| [**LangChain**](https://github.com/langchain-ai/langchain) | `uv add langchain` | Python 库引入 |
 
 ### 1.4 技术栈
 
 | 项目 | 底层框架 | 扩展性 |
 |------|----------|--------|
-| **AutoGPT** | Forge + Agent Protocol | 可自定义 Block |
-| **awesome-llm-apps** | ADK / OpenAI SDK / CrewAI / LangChain | 模板可改 |
-| **LangChain** | LangChain + LangGraph | **最灵活**，组件化 |
-| **LangFlow** | LangChain + React Flow | Python 自定义节点 |
-| **Open WebUI** | SvelteKit + Python | Pipelines 插件 |
+| [**AutoGPT**](https://github.com/Significant-Gravitas/AutoGPT) | Forge + Agent Protocol | 可自定义 Block |
+| [**awesome-llm-apps**](https://github.com/Shubhamsaboo/awesome-llm-apps) | ADK / OpenAI SDK / CrewAI / LangChain | 模板可改 |
+| [**LangChain**](https://github.com/langchain-ai/langchain) | LangChain + LangGraph | **最灵活**，组件化 |
+| [**LangFlow**](https://github.com/langflow-ai/langflow) | LangChain + React Flow | Python 自定义节点 |
+| [**Open WebUI**](https://github.com/open-webui/open-webui) | SvelteKit + Python | Pipelines 插件 |
 
 ### 1.5 核心差异化特点
 
 | 项目 | 亮点 |
 |------|------|
-| **AutoGPT** | 完整平台（前端+后端+Marketplace），适合企业；Classic 版有 Benchmark |
-| **awesome-llm-apps** | 15 大类、100+ 真实可运行模板，教程详细，企业级可用 |
-| **LangChain** | 生态最完整（LangSmith/LangGraph/LangSmith Deploy），行业标准 |
-| **LangFlow** | **拖拽式可视化**，产品/运营也能玩 |
-| **Open WebUI** | 完全离线、PWA 支持、9+ 向量数据库、多语言、Voice/Video |
+| [**AutoGPT**](https://github.com/Significant-Gravitas/AutoGPT) | 完整平台（前端+后端+Marketplace），适合企业；Classic 版有 Benchmark |
+| [**awesome-llm-apps**](https://github.com/Shubhamsaboo/awesome-llm-apps) | 15 大类、100+ 真实可运行模板，教程详细，企业级可用 |
+| [**LangChain**](https://github.com/langchain-ai/langchain) | 生态最完整（LangSmith/LangGraph/LangSmith Deploy），行业标准 |
+| [**LangFlow**](https://github.com/langflow-ai/langflow) | **拖拽式可视化**，产品/运营也能玩 |
+| [**Open WebUI**](https://github.com/open-webui/open-webui) | 完全离线、PWA 支持、9+ 向量数据库、多语言、Voice/Video |
 
 ### 1.6 选型建议
 
 | 需求 | 推荐 |
 |------|------|
-| ⚡ 快速验证 AI 想法 / Hackathon | **awesome-llm-apps** |
-| 🎨 不想写代码，用可视化构建 | **LangFlow** |
-| 🖥️ 本地部署私人 ChatGPT 替代品 | **Open WebUI** |
-| 🔧 严肃企业级 Agent 系统 | **AutoGPT** 或 **LangChain** |
-| 📦 追求最广泛生态和社区支持 | **LangChain** |
+| ⚡ 快速验证 AI 想法 / Hackathon | [**awesome-llm-apps**](https://github.com/Shubhamsaboo/awesome-llm-apps) |
+| 🎨 不想写代码，用可视化构建 | [**LangFlow**](https://github.com/langflow-ai/langflow) |
+| 🖥️ 本地部署私人 ChatGPT 替代品 | [**Open WebUI**](https://github.com/open-webui/open-webui) |
+| 🔧 严肃企业级 Agent 系统 | [**AutoGPT**](https://github.com/Significant-Gravitas/AutoGPT) 或 [**LangChain**](https://github.com/langchain-ai/langchain) |
+| 📦 追求最广泛生态和社区支持 | [**LangChain**](https://github.com/langchain-ai/langchain) |
 | 🐍 只想在 Python 里用 LangChain | `uv add langchain` 即可 |
 
 ---
@@ -163,13 +163,13 @@
 
 ## 3. 快速入门五步对应的开源项目
 
-| 步骤 | 目的 | 核心项目/包 | 官网 |
-|------|------|-------------|------|
-| 1 | LLM 调用 | `openai` / `anthropic` SDK | github.com/openai / anthropics |
-| 2 | LangChain 框架 | `langchain` + `langgraph` | github.com/langchain-ai/langchain |
-| 3 | RAG 向量检索 | `langchain-chroma` + `chromadb` | github.com/chroma-core/chroma |
-| 4 | Multi-Agent 多智能体 | `crewai` / `langgraph` | github.com/crewAI/crewAI |
-| 5 | MCP 协议 | `mcp` SDK / `claude-desktop-mcp` | github.com/anthropics/claude-desktop-mcp |
+| 步骤 | 目的 | 核心项目/包 | GitHub |
+|------|------|-------------|--------|
+| 1 | LLM 调用 | `openai` / `anthropic` SDK | [openai-python](https://github.com/openai/openai-python) / [anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) |
+| 2 | LangChain 框架 | `langchain` + `langgraph` | [langchain](https://github.com/langchain-ai/langchain) / [langgraph](https://github.com/langchain-ai/langgraph) |
+| 3 | RAG 向量检索 | `langchain-chroma` + `chromadb` | [chromadb](https://github.com/chroma-core/chroma) |
+| 4 | Multi-Agent 多智能体 | `crewai` / `langgraph` | [crewAI](https://github.com/crewAI/crewAI) |
+| 5 | MCP 协议 | `mcp` SDK / `claude-desktop-mcp` | [claude-desktop-mcp](https://github.com/anthropics/claude-desktop-mcp) |
 
 ### 各步骤详解
 
@@ -179,11 +179,11 @@
 pip install openai anthropic
 ```
 
-| 包 | 用途 |
-|----|------|
-| `openai` | OpenAI GPT 系列调用 |
-| `anthropic` | Claude 系列调用 |
-| `google-generativeai` | Gemini 调用 |
+| 包 | 用途 | GitHub |
+|----|------|--------|
+| `openai` | OpenAI GPT 系列调用 | [openai-python](https://github.com/openai/openai-python) |
+| `anthropic` | Claude 系列调用 | [anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) |
+| `google-generativeai` | Gemini 调用 | [generativeai-python](https://github.com/google/generativeai-python) |
 
 #### 步骤 2 — LangChain 框架
 
@@ -191,11 +191,11 @@ pip install openai anthropic
 uv add langchain langchain-openai langgraph
 ```
 
-| 包 | 用途 | Stars |
-|----|------|-------|
-| `langchain` | 核心框架，Chain 抽象 | ~67k ⭐ |
-| `langgraph` | 多步骤、循环、状态机 Agent | 附属于 LangChain |
-| `langchain-openai` | OpenAI LLM 集成 | — |
+| 包 | 用途 | Stars | GitHub |
+|----|------|-------|--------|
+| `langchain` | 核心框架，Chain 抽象 | ~67k ⭐ | [langchain](https://github.com/langchain-ai/langchain) |
+| `langgraph` | 多步骤、循环、状态机 Agent | — | [langgraph](https://github.com/langchain-ai/langgraph) |
+| `langchain-openai` | OpenAI LLM 集成 | — | [langchain](https://github.com/langchain-ai/langchain) |
 
 #### 步骤 3 — RAG 向量检索
 
@@ -204,11 +204,12 @@ uv add langchain-chroma langchain-elasticsearch
 pip install chromadb
 ```
 
-| 包 | 用途 | Stars |
-|----|------|-------|
-| `chromadb` | 轻量级向量数据库 | ~18k ⭐ |
-| `langchain` (RAG组件) | Retrieval + Generation 链 | ~67k ⭐ |
-| `qdrant-client` / `milvus` | 企业级向量库 | — |
+| 包 | 用途 | Stars | GitHub |
+|----|------|-------|--------|
+| `chromadb` | 轻量级向量数据库 | ~18k ⭐ | [chromadb](https://github.com/chroma-core/chroma) |
+| `langchain` (RAG组件) | Retrieval + Generation 链 | ~67k ⭐ | [langchain](https://github.com/langchain-ai/langchain) |
+| `qdrant-client` | 企业级向量库 | — | [qdrant](https://github.com/qdrant/qdrant) |
+| `milvus` | 企业级向量库 | ~25k ⭐ | [milvus](https://github.com/milvus-io/milvus) |
 
 #### 步骤 4 — Multi-Agent 多智能体
 
@@ -218,12 +219,12 @@ uv add crewai
 uv add langgraph
 ```
 
-| 包 | 用途 | Stars |
-|----|------|-------|
-| `crewai` | 多 Agent 协作框架 | ~30k ⭐ |
-| `crewai-tools` | 预置工具集 | — |
-| `langgraph` | 官方多 Agent + 状态管理 | 附属于 LangChain |
-| `google-adk` | Google Agent Development Kit | — |
+| 包 | 用途 | Stars | GitHub |
+|----|------|-------|--------|
+| `crewai` | 多 Agent 协作框架 | ~30k ⭐ | [crewAI](https://github.com/crewAI/crewAI) |
+| `crewai-tools` | 预置工具集 | — | [crewAI-tools](https://github.com/crewAI/crewAI-tools) |
+| `langgraph` | 官方多 Agent + 状态管理 | — | [langgraph](https://github.com/langchain-ai/langgraph) |
+| `google-adk` | Google Agent Development Kit | — | [adk-python](https://github.com/google/adk-python) |
 
 #### 步骤 5 — MCP 协议
 
@@ -238,12 +239,12 @@ pip install mcp
 npm install @modelcontextprotocol/sdk
 ```
 
-| 项目 | 用途 | Stars |
-|------|------|-------|
-| `claude-desktop-mcp` | 官方 MCP Server 集合 | ~10k ⭐ |
-| `mcp` (Python) | Python 版 MCP SDK | — |
-| `@modelcontextprotocol/sdk` | JS/TS 版 MCP SDK | — |
-| `mcp-servers` (社区) | 50+ 预构建 Servers | — |
+| 项目 | 用途 | Stars | GitHub |
+|------|------|-------|--------|
+| `claude-desktop-mcp` | 官方 MCP Server 集合 | ~10k ⭐ | [claude-desktop-mcp](https://github.com/anthropics/claude-desktop-mcp) |
+| `mcp` (Python) | Python 版 MCP SDK | — | [mcp](https://github.com/modelcontextprotocol/python) |
+| `@modelcontextprotocol/sdk` | JS/TS 版 MCP SDK | — | [sdk](https://github.com/modelcontextprotocol/typescript-sdk) |
+| `mcp-servers` (社区) | 50+ 预构建 Servers | — | [mcp-servers](https://github.com/modelcontextprotocol/servers) |
 
 ### 生态关系图
 
@@ -278,16 +279,16 @@ npm install @modelcontextprotocol/sdk
 
 ## 4. 其他 Agent/RAG 框架
 
-| 框架 | 特点 | Stars | 适合场景 |
-|------|------|-------|---------|
-| **LlamaIndex** | 专注文档索引/RAG，比 LangChain 更轻 | ~25k | **知识库 RAG 优先** |
-| **CrewAI** | 多 Agent 协作最简单 | ~30k | 快速多 Agent 项目 |
-| **AutoGen** | 微软开源，多 Agent 对话 | ~35k | 复杂对话式 Agent |
-| **AutoGPT** | 完整平台，工作流编排 | ~163k | 企业级商业 Agent |
-| **Dify** | 无代码可视化，拖拽 | ~45k | 非程序员 |
-| **Flowise** | 低代码 LangChain 可视化 | ~35k | 快速原型 |
-| **Spring AI** | Java 版 LangChain | — | Java 技术栈 |
-| **AgentVerse** | 多 Agent 仿真框架 | ~8k | 学术/研究 |
+| 框架 | 特点 | Stars | 适合场景 | GitHub |
+|------|------|-------|---------|--------|
+| [**LlamaIndex**](https://github.com/run-llama/llama_index) | 专注文档索引/RAG，比 LangChain 更轻 | ~25k | **知识库 RAG 优先** | [run-llama/llama_index](https://github.com/run-llama/llama_index) |
+| [**CrewAI**](https://github.com/crewAI/crewAI) | 多 Agent 协作最简单 | ~30k | 快速多 Agent 项目 | [crewAI/crewAI](https://github.com/crewAI/crewAI) |
+| [**AutoGen**](https://github.com/microsoft/autogen) | 微软开源，多 Agent 对话 | ~35k | 复杂对话式 Agent | [microsoft/autogen](https://github.com/microsoft/autogen) |
+| [**AutoGPT**](https://github.com/Significant-Gravitas/AutoGPT) | 完整平台，工作流编排 | ~163k | 企业级商业 Agent | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) |
+| [**Dify**](https://github.com/langgenius/dify) | 无代码可视化，拖拽 | ~45k | 非程序员 | [langgenius/dify](https://github.com/langgenius/dify) |
+| [**Flowise**](https://github.com/FlowiseAI/Flowise) | 低代码 LangChain 可视化 | ~35k | 快速原型 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) |
+| **Spring AI** | Java 版 LangChain | — | Java 技术栈 | [spring-projects/spring-ai](https://github.com/spring-projects/spring-ai) |
+| [**AgentVerse**](https://github.com/OpenGVLab/Multi-Agent-Embodied) | 多 Agent 仿真框架 | ~8k | 学术/研究 | [OpenGVLab/Multi-Agent-Embodied](https://github.com/OpenGVLab/Multi-Agent-Embodied) |
 
 ---
 
@@ -329,14 +330,14 @@ RAG = Retrieval (检索) + Augmented (增强) + Generation (生成)
 
 ### 向量数据库对比
 
-| 数据库 | 特点 | Stars |
-|--------|------|-------|
-| **ChromaDB** | 轻量级向量库 | ~18k |
-| **Qdrant** | 云原生，高性能 | ~12k |
-| **Milvus** | 企业级大规模 | ~25k |
-| **Pinecone** | 云服务（付费） | — |
-| **pgvector** | PostgreSQL 向量扩展 | — |
-| **FAISS** | Facebook 向量检索 | — |
+| 数据库 | 特点 | Stars | GitHub |
+|--------|------|-------|--------|
+| [**ChromaDB**](https://github.com/chroma-core/chroma) | 轻量级向量库 | ~18k | [chroma-core/chroma](https://github.com/chroma-core/chroma) |
+| [**Qdrant**](https://github.com/qdrant/qdrant) | 云原生，高性能 | ~12k | [qdrant/qdrant](https://github.com/qdrant/qdrant) |
+| [**Milvus**](https://github.com/milvus-io/milvus) | 企业级大规模 | ~25k | [milvus-io/milvus](https://github.com/milvus-io/milvus) |
+| **Pinecone** | 云服务（付费） | — | [pinecone-io](https://github.com/pinecone-io) |
+| **pgvector** | PostgreSQL 向量扩展 | — | [pgvector/pgvector](https://github.com/pgvector/pgvector) |
+| [**FAISS**](https://github.com/facebookresearch/faiss) | Facebook 向量检索 | ~25k | [facebookresearch/faiss](https://github.com/facebookresearch/faiss) |
 
 ---
 
